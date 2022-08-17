@@ -17,7 +17,6 @@ Import-Module posh-git
 Import-Module PSReadLine
 
 
-
 Set-PSReadLineOption -PredictionSource History
 
 Set-PSReadLineOption -HistorySearchCursorMovesToEnd
