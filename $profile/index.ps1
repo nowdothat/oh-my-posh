@@ -32,7 +32,6 @@ Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 
-
 $decide = Get-Random -Maximum 10
 if($decide -as [int] -gt 5) {
   set-Theme2;
